@@ -5,7 +5,7 @@ This project demonstrates a complete **data lifecycle**: from storing and queryi
 
 The objective was to analyze key performance indicators (**KPIs**) and identify trends in customer purchasing behavior, peak order times, and product performance to support **resource optimization** and **inventory management**.
 
-![Dashboard](Sushi_Sales Dashboard/Dashboard.jpeg)
+![Dashboard](Dashboard.jpeg)
 ---
 
 ## 🛠️ Tools & Technologies Used
@@ -33,23 +33,23 @@ The project began by importing raw CSV data into a PostgreSQL environment. Advan
 
 ### SQL KPI Verification
 
-![Revenue](Sushi_Sales Dashboard/Screenshot/1.png)
+![Revenue](Screenshot/1.png)
 
 *Figure 1: SQL output for total revenue*
 
-![Average Order Value](images/avg-order-value.png)
+![Average Order Value](Screenshot/2.png)
 
 *Figure 2: SQL output for average order value*
 
-![Total Sushi Sold](images/total-sushi.png)
+![Total Sushi Sold](Screenshot/3.png)
 
 *Figure 3: SQL output for total sushi sold*
 
-![Total Orders](images/orders.png)
+![Total Orders](Screenshot/4.png)
 
 *Figure 4: SQL output for total orders*
 
-![Average Sushi Per Order](images/avg-sushi-order.png)
+![Average Sushi Per Order](Screenshot/5.png)
 
 *Figure 5: SQL output for average items per transaction*
 
@@ -68,9 +68,9 @@ The Excel dashboard provides a comprehensive overview of business performance an
   - **Lunch Rush:** 12 PM – 1 PM
   - **Dinner Rush:** 5 PM – 7 PM
 
-![Orders by Day](images/orders-by-day.png)
+![Orders by Day](Screenshot/6.png)
 
-![Hourly Orders](images/hourly-orders.png)
+![Hourly Orders](Screenshot/7.png)
 
 #### Business Insight:
 Prioritize staffing and inventory preparation during these high-demand periods.
@@ -85,11 +85,9 @@ Prioritize staffing and inventory preparation during these high-demand periods.
 #### Size Performance:
 - **Large rolls** were the preferred choice among customers, contributing **45.9%** of total items sold.
 
-![Category Sales](images/category-sales.png)
+![Category Sales](Screenshot/8.png)
 
-![Category Quantity](images/category-quantity.png)
-
-![Size Distribution](images/size-distribution.png)
+![Size Distribution](Screenshot/9.png)
 
 ---
 
@@ -99,12 +97,12 @@ Prioritize staffing and inventory preparation during these high-demand periods.
 - Classic Deluxe Roll
 - Barbecue Chicken Roll
 
-![Top Sellers](images/top-sellers.png)
+![Top Sellers](Screenshot/11.png)
 
 #### Lowest Seller:
 - Brie and Pear Roll
 
-![Worst Sellers](images/worst-sellers.png)
+![Worst Sellers](Screenshot/13.png)
 
 #### Business Insight:
 The low performance of the Brie and Pear Roll suggests opportunities for:
